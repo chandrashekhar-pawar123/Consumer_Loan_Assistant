@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
+public class Customer_Debt_Assistant extends JFrame implements ActionListener {
     JLabel l1, l2, l3, l4, la;
     JTextField tf1, tf2, tf3, tf4;
     JButton b1, b2, x1, x2, exit;
@@ -10,8 +10,8 @@ public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
     Font arial, fbutton;
     Boolean tf3enabled = false, tf4enabled = true;
 
-    Consumer_Loan_Assistant() {
-        super("  Consumer Loan Assistant");
+    Customer_Debt_Assistant() {
+        super("  Customer Debt Assistant");
 
         ta = new JTextArea("");
         ta.setBounds(400, 40, 300, 250);
@@ -203,7 +203,7 @@ public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Consumer_Loan_Assistant();
+        new Customer_Debt_Assistant();
     }
 
 }
